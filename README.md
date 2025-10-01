@@ -10,7 +10,7 @@ CGPA: 3.47 → target 3.60 | IELTS: booked 2026-04-15
 - Live AQI App: https://YOURNAME.github.io/BUP-ML-Portfolio/aqi-app  
 
 ## 📊 Competitions
-![Kaggle](https://img.shields.io/badge/HousePrices-95.7%25-blue)  
+[![Kaggle](https://img.shields.io/badge/HousePrices-95.7%25-blue)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
 ![Kaggle](https://img.shields.io/badge/SpaceshipTitanic-top8%25-orange)
 
 ## 📜 Certificates
