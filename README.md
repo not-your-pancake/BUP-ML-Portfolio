@@ -28,3 +28,28 @@ link of the CSV file : "https://raw.githubusercontent.com/dataprofessor/data/ref
     </tr>
   </tbody>
 </table>
+
+### Model Performance Metrics (Random Forest)
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Training MSE</th>
+      <th>Training R2</th>
+      <th>Test MSE</th>
+      <th>Test R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Random forest</td>
+      <td>1.028228</td>
+      <td>0.759669</td>
+      <td>1.407688</td>
+      <td>1.407688</td>
+    </tr>
+  </tbody>
+</table>
+
+## Model Comparision 
+<img width="480" height="96" alt="image" src="https://github.com/user-attachments/assets/f3c4d161-0865-4fb8-8b44-a26ca3cf23f7" />
