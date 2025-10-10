@@ -32,7 +32,8 @@ CGPA: 3.47 → target 3.60 | IELTS: booked 2026-04-15
 | 08-aqi-app | Streamlit deployment files |
 
 <!-- Add this line to your GitHub README.md -->
-- [Hyper-tuning Random Forest: A Practical Guide]([PASTE_URL_HERE](https://medium.com/@nabilhasan01541work/hyper-tuning-random-forest-a-practical-guide-for-performance-optimization-a5cdda83356e)) — Medium article, 3-min read
+## 📜 Articles
+- [Hyper-tuning Random Forest: A Practical Guide](https://medium.com/@nabilhasan01541work/hyper-tuning-random-forest-a-practical-guide-for-performance-optimization-a5cdda83356e) — Medium article, 4-min read
 
 ## 📈 Commit Activity
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/not-your-pancake/BUP-ML-Portfolio)
