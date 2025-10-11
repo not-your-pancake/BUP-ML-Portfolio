@@ -1,27 +1,30 @@
 # BUP-ML-Portfolio  
 **BSc Information & Communication Engineering, Bangladesh University of Professionals**  
-CGPA: 3.20 → target 3.60+ 
+CGPA: 3.20 → target 3.60+ [ 1st and 2nd semester -> 3.47 ]
 
 ## 🔗 Quick Links
 - Linked in : https://www.linkedin.com/in/md-khalid-hasan-nabil-01541mon1
 - Kaggle: https://www.kaggle.com/nabil01541
-`- arXiv-1: https://arxiv.org/abs/xxxx.xxxx (Heat-Index)`  
-`- arXiv-2: https://arxiv.org/abs/yyyy.yyyy (Air-Quality)  `
-`- Live AQI App: https://YOURNAME.github.io/BUP-ML-Portfolio/aqi-app ` 
+<!--- arXiv-1: https://arxiv.org/abs/xxxx.xxxx (Heat-Index)  
+- arXiv-2: https://arxiv.org/abs/yyyy.yyyy (Air-Quality)  
+- Live AQI App: https://YOURNAME.github.io/BUP-ML-Portfolio/aqi-app  
+-->
+## 🏆 Competitions
 
-## 📊 Competitions
-[![Kaggle](https://img.shields.io/badge/HousePrices-95.7%25-blue)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
-<img width="1221" height="159" alt="image" src="https://github.com/user-attachments/assets/987857f1-a3b5-43b1-ac19-0750f9360614" />
+[![Kaggle House Prices](https://img.shields.io/badge/HousePrices-95.7%25-2A85FF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
+<br> 
+<img src="https://github.com/user-attachments/assets/987857f1-a3b5-43b1-ac19-0750f9360614" width="700" alt="Kaggle House Prices Leaderboard Screenshot" />
 
-`![Kaggle](https://img.shields.io/badge/SpaceshipTitanic-top8%25-orange)`
+<!--![Kaggle](https://img.shields.io/badge/SpaceshipTitanic-top8%25-orange) -->
 
 ## 📜 Articles
 - [Hyper-tuning Random Forest: A Practical Guide](https://medium.com/@nabilhasan01541work/hyper-tuning-random-forest-a-practical-guide-for-performance-optimization-a5cdda83356e) — Medium article, 4-min read
 ## 📜 Certificates
 - Intro to Machine Language | kaggle | Issued Sept 2025
 - Data Science Math Skills | Duke University | Coursera | Issued Oct 2024 | Grade : 88.30%
-`- Applied Data Science w/ Python (U-Michigan) – Coursera ` 
-`- Google Cloud Data Engineer – Skill Boost  `
+
+<!--- Applied Data Science w/ Python (U-Michigan) – Coursera 
+- Google Cloud Data Engineer – Skill Boost  -->
 
 ## 📁 Folder Map
 | Folder | Content |
