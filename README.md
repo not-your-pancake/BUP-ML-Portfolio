@@ -11,6 +11,8 @@ CGPA: 3.20 → target 3.60+
 
 ## 📊 Competitions
 [![Kaggle](https://img.shields.io/badge/HousePrices-95.7%25-blue)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
+<img width="1221" height="159" alt="image" src="https://github.com/user-attachments/assets/987857f1-a3b5-43b1-ac19-0750f9360614" />
+
 `![Kaggle](https://img.shields.io/badge/SpaceshipTitanic-top8%25-orange)`
 
 ## 📜 Articles
