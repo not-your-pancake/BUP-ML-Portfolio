@@ -29,9 +29,9 @@ struct marks{
     }
 };
 
-float total_marks(const vector<student> &s){
-    for (  )
-}
+// float total_marks(const vector<student> &s){
+//     for (  )
+// }
 
 int main()
 {
