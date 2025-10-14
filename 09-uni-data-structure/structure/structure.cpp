@@ -71,7 +71,7 @@ int main()
             total_marks_all_maths += m[i].maths;
         }
         return total_marks_all_maths;
-    };
+    }
 
     float total_marks_all_maths = calculate_total_math_marks(m, 3);
     cout << "Total marks in Maths for all students: " << total_marks_all_maths << endl;
