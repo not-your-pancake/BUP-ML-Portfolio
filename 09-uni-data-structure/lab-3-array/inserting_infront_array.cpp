@@ -17,7 +17,7 @@ for( int i = n - 1; i >= 0; i--){
     arr[i + 1] = arr[i];
 }
 arr[0] = newValue;
-
+n++;
 cout << "The new array is where the value is in first: \n";
 for( int i = 0; i < n; i++){
     cout << arr[i] << " ";
