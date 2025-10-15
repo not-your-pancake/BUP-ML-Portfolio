@@ -23,6 +23,7 @@ CGPA: 3.20 → target 3.60+ [ 1st and 2nd semester -> 3.47 ]
 ## 📜 Articles
 
 - [Hyper-tuning Random Forest: A Practical Guide](https://medium.com/@nabilhasan01541work/hyper-tuning-random-forest-a-practical-guide-for-performance-optimization-a5cdda83356e) — Medium article, 4-min read
+- [Mastering Array Insertion: A Simple Trick to Avoid Indexing Confusion in C++] (https://medium.com/@nabilhasan01541work/mastering-array-insertion-a-simple-trick-to-avoid-indexing-confusion-in-c-b2bf44cfd04c) - Medium article, 3-min read
 
 ## 📜 Certificates
 
