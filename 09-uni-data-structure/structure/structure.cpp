@@ -65,7 +65,7 @@ int main()
         m[i].total_marks();
         cout << endl;
     }
-    
+        
     return 0;
 }
 
