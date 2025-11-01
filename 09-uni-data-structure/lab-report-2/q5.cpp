@@ -6,41 +6,59 @@ struct Node{
     Node* next;
 };
 
-int countNodes(Node* head) {
-    int count = 0;
+int sum (Node* head){
     Node* current = head;
-    while (current != NULL) {
-        count++;
-        current = current->next;
-    }
-    return count;
-}
-
-int sumNodes(Node* head) {
     int sum = 0;
-    Node* current = head;
-    while (current != NULL) {
-        sum += current->data;
-        current = current->next;
+    
+    while (current != NULL){
+        sum = sum + current -> data;
+        current = current -> next;
     }
+    
     return sum;
 }
 
+int node_number(Node* head){
+    Node* current = head;
+    int count = 0;
+    
+    while (current != NULL){
+        count++;
+        current = current ->next;
+    }
+    
+    return count;
+}
+
 int main() {
-    // create a simple linked list: 10 -> 20 -> 30
-    Node* n1 = new Node{10, nullptr};
-    Node* n2 = new Node{20, nullptr};
-    Node* n3 = new Node{30, nullptr};
-    n1->next = n2;
-    n2->next = n3;
-    n3->next = nullptr;
-
-    Node* head = n1;
-
-    int nodeCount = countNodes (head);
-    int nodeSum = sumNodes(head);
-    cout << "Total number of nodes: " << nodeCount << "\n";
-    cout << "Sum of all node data values: " << nodeSum << "\n";
-
-    return 0;
+    
+//5. Create a linked list of integers. Write separate functions to: Count the total number of
+//nodes. Calculate the sum of all node data values. Display both results.
+    
+    Node *n1, *n2, *n3;
+    
+    n1 = new Node();
+    n2 = new Node();
+    n3 = new Node();
+    
+    n1 -> data = 21;
+    n1 -> next = n2;
+    
+    n2 -> data = 22;
+    n2 -> next = n3;
+    
+    n3 -> data = 23;
+    n3 -> next = NULL;
+    
+    Node *head;
+    head = n1;
+    
+    // see how many times a node value is present 
+    
+    
+    cout << "Total node nodes are : " << node_number(head);
+    cout << "\n";
+    cout << "Total sum of all the nodes are : " << sum(head);
+    
+    return 0;	
 }
