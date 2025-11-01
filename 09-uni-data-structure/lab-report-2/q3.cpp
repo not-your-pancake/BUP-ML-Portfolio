@@ -20,12 +20,20 @@ int main (){
     node2 -> data = 42;
     node2 -> next = node3; // link node2 to node3's adress
 
+    cout << "Node 1 data: " << node1 << "\n";
+    cout << "Node 2 data: " << head << "\n";
+
     node3 -> data = 15;
     node3 -> next = nullptr; // last node points to null
 
+     while (head != nullptr) {
+        cout << "Data: " << head -> data << "\n";
+        cout << "Node Address: " << head << "\n";
+        cout << "Next Node Address: " << head -> next << "\n\n";
+        head = head -> next;
+    }
 
     int max = head -> data;
-
     while (head != nullptr) {
         if (head -> data > max){
             max = head -> data;

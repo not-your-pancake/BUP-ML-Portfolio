@@ -11,7 +11,6 @@ struct Student {
     string name;
     float marks;
 };
-
 struct Book {
     string title;
     string author;
