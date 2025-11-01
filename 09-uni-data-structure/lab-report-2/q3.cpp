@@ -22,7 +22,7 @@ int main (){
 
     node3 -> data = 15;
     node3 -> next = nullptr; // last node points to null
-    
+
 
     int max = head -> data;
 
