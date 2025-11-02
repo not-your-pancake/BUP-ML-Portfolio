@@ -1,56 +1,68 @@
 #include <bits/stdc++.h>
 using namespace std;
-struct Node{
+
+struct Node {
     int data;
     Node* next;
 };
 
-Node* head = NULL;
-    auto insertAtBeginning = [&](int data){
-        Node* newNode = new Node();
-        newNode -> data = data;
-        newNode -> next = head;
-        head = newNode;
-    };
-    // insert at end
-    auto insertAtEnd = [&](int data){
-        Node* newNode = new Node();
-        newNode -> data = data;
-        newNode -> next = NULL;
-        if (head == NULL){
-            head = newNode;
-            return;
-        }
-        Node* temp = head;
-        while (temp -> next != NULL){
-            temp = temp -> next;
-        }
-        temp -> next = newNode;
-    };
+void display(Node *head){
+    while ( head != NULL ){
+        cout << head-> data <<" ";
+        head = head -> next;
+    }
+}
 
-    // display
-    auto display = [&](){
-        Node* temp = head;
-        while (temp != NULL){
-            cout << temp -> data << " -> ";
-            temp = temp -> next;
-        }
-        cout << "NULL\n";
-    };
+void insert_at_start(Node** head, int newValue){
+    // intialize Node
     
-int main(){
+    Node* newNode = new Node();
+    newNode -> data = newValue;
+    newNode -> next = *head;
+    *head = newNode;
+}
 
-//6. Write functions for insertAtBeginning(), insertAtEnd(), and display() for a singly linked
-//list. Call them from main().
-    // insert at beginning
-    // insert at beginning
+void insert_last(Node** head, int newValue){
+    
+    Node* newNode = new Node();
+    newNode -> data = newValue;
+    newNode -> next = NULL;
+    
+    Node *last = *head;
+    
+    while( last != NULL){
+        last = last -> next;
+    }
+    
+    last->next = newNode;
+}
 
-
-    insertAtBeginning(10);
-    insertAtBeginning(20);
-    insertAtEnd(30);
-    insertAtEnd(40);
-    display();
-
+int main() {
+    
+    Node *n1, *n2, *n3;
+    
+    // n1 = new Node(1,NULL);
+    // n2 = new Node(2,NULL);
+    // n3 = new Node(3,NULL);
+    
+    n1 -> next = n2;
+    n2 -> next = n3;
+    n3 -> next = NULL;
+    
+    Node *head = n1;
+    
+    cout << "-- display the nodes values -- \n";
+    display(head);
+    
+    cout << "\n";   
+    
+    cout << "-- added in the front --\n";
+    insert_at_start(&head , 5);
+    display(head);
+    
+    cout << " -- added at last -- \n";
+    insert_last(&head, 34);
+    display(head);
+    
     return 0;
 }
