@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,9 +7,15 @@ struct Node{
     Node* next;
 };
 
+void display(Node*  head){
+    while (head != NULL) {
+        cout << head->data << " ";
+        head = head->next;
+    }
+}
 int main() {
     
-    //given a sorted linked list, insert a new node in ascending order.
+    //deletes a node from any position in a linked list.
     
     Node *n1, *n2, *n3;
     
@@ -27,30 +34,27 @@ int main() {
     
     Node *head;
     head = n1;
-    
-    int newValue;
-    cin >> newValue;
-    Node* newNode = new Node();
-    newNode -> data = newValue;
-    newNode -> next = NULL;
-
-    if (head == NULL || head->data > newValue) {
-        newNode->next = head;
-        head = newNode;
+    int position;
+    cin >> position;
+    if (position == 0) {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
     } else {
         Node* current = head;
-        while (current->next != NULL && current->next->data < newValue) {
+        for (int i = 0; current != NULL && i < position - 1; i++) {
             current = current->next;
         }
-        newNode->next = current->next;
-        current->next = newNode;
-    }
-
-    Node* temp = head;
-    while (temp != NULL) {
-        cout << temp->data << " ";
-        temp = temp->next;
-    }
+        if (current == NULL || current->next == NULL) {
+            cout << "Position out of bounds" << endl;
+        } else {
+            Node* temp = current->next;
+            current->next = temp->next;
+            delete temp;
+        }
+    }    
+    
+    display(head);
     cout << endl;
 
     return 0;

@@ -6,15 +6,9 @@ struct Node{
     Node* next;
 };
 
-void display(Node*  head){
-    while (head != NULL) {
-        cout << head->data << " ";
-        head = head->next;
-    }
-}
 int main() {
     
-    //deletes a node from any position in a linked list.
+    //given a sorted linked list, insert a new node in ascending order.
     
     Node *n1, *n2, *n3;
     
@@ -33,27 +27,30 @@ int main() {
     
     Node *head;
     head = n1;
-    int position;
-    cin >> position;
-    if (position == 0) {
-        Node* temp = head;
-        head = head->next;
-        delete temp;
+    
+    int newValue;
+    cin >> newValue;
+    Node* newNode = new Node();
+    newNode -> data = newValue;
+    newNode -> next = NULL;
+
+    if (head == NULL || head->data > newValue) {
+        newNode->next = head;
+        head = newNode;
     } else {
         Node* current = head;
-        for (int i = 0; current != NULL && i < position - 1; i++) {
+        while (current->next != NULL && current->next->data < newValue) {
             current = current->next;
         }
-        if (current == NULL || current->next == NULL) {
-            cout << "Position out of bounds" << endl;
-        } else {
-            Node* temp = current->next;
-            current->next = temp->next;
-            delete temp;
-        }
-    }    
-    
-    display(head);
+        newNode->next = current->next;
+        current->next = newNode;
+    }
+
+    Node* temp = head;
+    while (temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
     cout << endl;
 
     return 0;
