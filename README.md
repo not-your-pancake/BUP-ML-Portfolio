@@ -22,7 +22,7 @@ This was one of my side project. I was the team leader and did collaboration wit
 <img src="./12-vertical-flight-society/certificate-the_hawk.pdf" width="700" alt="VFS certificate" />
 
 <br>
-[![Kaggle House Prices](https://img.shields.io/badge/HousePrices-95.7%25-2A85FF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
+[[Kaggle House Prices](https://img.shields.io/badge/HousePrices-95.7%25-2A85FF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
 <br>
 <img src="https://github.com/user-attachments/assets/987857f1-a3b5-43b1-ac19-0750f9360614" width="700" alt="Kaggle House Prices Leaderboard Screenshot" />
 
