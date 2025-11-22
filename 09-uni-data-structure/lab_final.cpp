@@ -75,35 +75,97 @@ int arr[10] = {1,2,3,4,5};
 //cout << endl;
 
 /// insertion from anywhere
-int loc, newele,n=5;
+//int loc, newele,n=5;
+//
+//cout << "set location: ";
+//cin >> loc;
+//
+//cout << "set new element : ";
+//cin >>  newele;
+//
+//int index = loc-1;
+//
+//cout << "before: "<< endl;
+//    for ( int i=0; i<n; i++){
+//        cout << arr[i]<< " ";
+//    }
+//cout << endl;
+//
+//// shifting the position
+//for( int i = n ; i >= index; i--){
+//    arr [i+1] = arr[i];
+//}
+//
+//arr[index] = newele;
+//n++;
+//
+//cout << "after: "<< endl;
+//    for ( int i=0; i<n; i++){
+//        cout << arr[i]<< " ";
+//    }
+//cout << endl;
 
-cout << "set location: ";
-cin >> loc;
+/// delete from the end
+//int n = 5;
+//cout << "before: "<< endl;
+//    for ( int i=0; i<n; i++){
+//        cout << arr[i]<< " ";
+//    }
+//cout << endl;
+//
+//n--;
+//
+//cout << "after: "<< endl;
+//    for ( int i=0; i<n; i++){
+//        cout << arr[i]<< " ";
+//    }
+//cout << endl;
 
-cout << "set new element : ";
-cin >>  newele;
+/// linear search
 
-int index = loc-1;
+//int target=30;
+////int target=34;
+//int n = 5;
+//int pos;
+//
+//for (int i=0; i<n; i++){
+//    if (arr[i]==target){
+//       pos = i;
+//    }
+//}
+//if(arr[pos] == target){
+//     cout << "position:"<< pos <<" \t" << "value: " << target <<"\t";
+//}
+//else{
+//    cout << " Not fond ";
+//}
+
+/// bubble sort
+
+int arrBB[100] = {3,1,4,2,5};
+int n = 5;
 
 cout << "before: "<< endl;
     for ( int i=0; i<n; i++){
-        cout << arr[i]<< " ";
+        cout << arrBB[i]<< " ";
     }
 cout << endl;
 
-// shifting the position
-for( int i = index ; i >= 0; i--){
-    arr [i+1] = arr[i];
-}
 
-arr[index] = newele;
-n++;
+for(int i=0; i<n; i++){
+    for(int j = 0; j< n-1; j++){
+        if(arrBB[j+1]<arrBB[j]){
+            swap(arrBB[j+1],arrBB[j]);
+        }
+    }
+}
 
 cout << "after: "<< endl;
     for ( int i=0; i<n; i++){
-        cout << arr[i]<< " ";
+        cout << arrBB[i]<< " ";
     }
 cout << endl;
+
 
 
 return 0;
