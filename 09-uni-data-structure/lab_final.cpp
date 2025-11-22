@@ -166,7 +166,30 @@ cout << "after: "<< endl;
     }
 cout << endl;
 
+// binary search
 
+int target =  5;
+int first = 0;
+int last = n;
+int mid = 0;
+int i=0;
+while(first <= last){
+    mid = (first+last)/2;
+    if( arrBB[mid] == target){
+        cout << " target is at : " << mid;
+        break;
+    }
+    else if( arrBB[mid]> target){
+        last = mid -1;
+    }
+    else{
+        first = mid +1;
+    }
+}
+
+if (first > last ){
+    cout << " not fiund";
+}
 
 return 0;
 }
