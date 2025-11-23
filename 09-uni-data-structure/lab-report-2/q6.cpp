@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 struct Node {
@@ -13,56 +13,62 @@ void display(Node *head){
     }
 }
 
-void insert_at_start(Node** head, int newValue){
-    // intialize Node
-    
+void insertAtBeginning(Node** head, int newValue){
     Node* newNode = new Node();
     newNode -> data = newValue;
     newNode -> next = *head;
     *head = newNode;
 }
 
-void insert_last(Node** head, int newValue){
+void insertAtEnd(Node** head, int newValue){
     
     Node* newNode = new Node();
     newNode -> data = newValue;
     newNode -> next = NULL;
-    
+
+    if (*head == NULL) {
+        *head = newNode;
+        return;
+    }
+
     Node *last = *head;
-    
-    while( last != NULL){
+
+    while( last->next != NULL){
         last = last -> next;
     }
-    
     last->next = newNode;
 }
 
 int main() {
     
     Node *n1, *n2, *n3;
-    
-    // n1 = new Node(1,NULL);
-    // n2 = new Node(2,NULL);
-    // n3 = new Node(3,NULL);
-    
+
+    n1 = new Node();
+    n2 = new Node();
+    n3 = new Node();
+
+    n1 -> data = 1;
+    n2 -> data = 2;
+    n3 -> data = 3;
+
     n1 -> next = n2;
     n2 -> next = n3;
     n3 -> next = NULL;
     
     Node *head = n1;
-    
-    cout << "-- display the nodes values -- \n";
+
+    cout << "Initial List: ";
     display(head);
     
-    cout << "\n";   
-    
-    cout << "-- added in the front --\n";
-    insert_at_start(&head , 5);
+    cout << "\nAfter insertAtBeginning(5): ";    
+    insertAtBeginning(&head , 5);
     display(head);
     
-    cout << " -- added at last -- \n";
-    insert_last(&head, 34);
+    cout << "\nAfter insertAtEnd(34): ";
+    insertAtEnd(&head, 34);
     display(head);
+    
+    cout << "\n";
     
     return 0;
 }
