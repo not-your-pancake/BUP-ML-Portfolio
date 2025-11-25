@@ -1,60 +1,73 @@
 #include <iostream>
 using namespace std;
-#define MAX 5
 
-int queueArray[MAX]; // linear queue
-int front = -1; // just allocating so that it does give garbage value
-int rear = -1;
+struct Node{
+  int data;
+  Node* next;
+};
 
-void enqueue(int data){
-    if (rear == MAX -1) {
-        cout << "Queue is full\n";
+
+void display(Node *head){
+    while ( head != NULL){
+        cout << head->data << " ";
+        head = head->next;
     }
-    else if (front == -1 && rear == -1) {
-        front = 0;
-        rear = 0;
-        queueArray[rear] = data;
-        cout << data << " Inserted.\n";
-    }
-    else {
-        rear++;
-        queueArray[rear] = data;
-        cout << data << " Inserted.\n";
-    }
+    cout << "\n\n";
 }
 
-void dequeue(){
-    // show under flow
-    if (front == -1 && rear == -1) {
-        cout << "Queue is empty\n";
-    }
-    else if (front == rear) {
-        front = rear = -1;
-    }
-    else {
-        cout << queueArray[front] << " Deleted.\n";
-        front++;
-    }
+Node *front = NULL;
+Node *rear = NULL;
+
+void enq(int val){
+    Node *newNode = new Node();
+    newNode->data = val;
+    newNode -> next = NULL;
+    rear->next = newNode;
 }
-void display(){
-    for (int i = front; i <= rear; i++) {
-        cout << queueArray[i] << " ";
-    }
+
+void deq(){
+    Node *temp;
+    temp= front;
+    front = front->next;
+    delete temp;
 }
 
 int main(){
-    // First in first out
-    enqueue(10);
-    enqueue(20);
-    enqueue(30);
     
-    display();
-    cout << "\n";
+    Node *n1, *n2, *n3, *n4;
     
-    // dequeue();
-    // cout << "\n";
+    n1 = new Node();
+    n2 = new Node();
+    n3 = new Node();
+    n4 = new Node();
     
-    // display();
-
+    n1-> data = 15;
+    n1-> next = n2;
+    
+    n2-> data = 25;
+    n2-> next = n3;
+    
+    n3-> data = 35;
+    n3-> next = n4;
+    
+    n4-> data = 45;
+    n4-> next = NULL;
+    
+    
+    Node *head = n1;
+    
+    front = n1;
+    rear = n4;
+    
+    // before 
+    display(front);
+    
+    // enq(123);
+    // //after
+    // display(head);
+    
+    deq();
+    display(front);
+    
     return 0;
 }
