@@ -17,10 +17,18 @@ void display(Node *head){
 }
 
 void push (int val){
-    Node *newNode = new Node();
-    newNode->data = val;
-    newNode-> next = top;
-    top = newNode;
+
+    if (top != NULL){
+        Node *newNode = new Node();
+        newNode->data = val;
+        newNode->next = NULL;
+        top = newNode;
+        return;
+    }
+    else{
+        cout << "overflow\n";
+        return;
+    }
 }
 
 void pop(){
@@ -30,7 +38,7 @@ if ( top != NULL){
     delete temp;
 }
     else{
-        cout << "undeiglaigj ";
+        cout << "underflow\n";
         return;
     }
 }
