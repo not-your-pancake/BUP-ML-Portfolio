@@ -17,6 +17,7 @@ CGPA: 3.20 → target 3.60+ [ 1st and 2nd semester -> 3.47 ]
 - [42nd Annual Student Design Compitetion of Vertical Flight Society](https://github.com/not-your-pancake/BUP-ML-Portfolio/blob/main/12-vertical-flight-society/Executive%20Summary%20Of%20The%20Team%20Hawk.pdf) <br>
 This was one of my side project. I was the team leader and did collaboration with Aeronotocal Engineering students. 
 - worked with PEMFC ( Proton Exchange Membrane Fuel Cell) of Toyota Mirai
+- came up with the concept of hybridization of Cabri and R22
 - My main role was in the research, writing section
 <br>
 <img src="./12-vertical-flight-society/certificate-the_hawk.pdf" width="700" alt="VFS certificate" />
