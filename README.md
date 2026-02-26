@@ -2,10 +2,11 @@
 
 **BSc Information & Communication Engineering, Bangladesh University of Professionals**  
 CGPA: 3.38 → target 3.60+ 
-[ 1st semester -> 3.47
-2nd semester -> 3.47
-3rd semester -> 2.67
-4th semester -> 3.71]
+
+- 1st semester -> 3.47
+- 2nd semester -> 3.47
+- 3rd semester -> 2.67
+- 4th semester -> 3.71
 
 ## 🔗 Quick Links
 - Portfolio website : 
