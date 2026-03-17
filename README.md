@@ -17,7 +17,7 @@ CGPA: 3.38 → target 3.60+
 - Live AQI App: https://YOURNAME.github.io/BUP-ML-Portfolio/aqi-app  
   -->
 # Publications
-- Physics-Guided Machine Learning Surrogates for Bird Strike Analysis on Rotating Jet Engine Blades Through a Comparative Study of Lagrangian and SPH Simulations
+- Physics-Guided Machine Learning Surrogates for Bird Strike Analysis on Rotating Jet Engine Blades Through a Comparative Study of Lagrangian and SPH Simulations. <br>
   I am the first author and my advisor is Ivan Grgić, University of Slavonski Brod, Mechanical Engineering Faculty in Slavonski Brod.
   
 ## 🏆 Competitions
