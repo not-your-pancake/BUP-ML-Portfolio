@@ -21,15 +21,20 @@ CGPA: 3.38 → target 3.60+
   I am the first author and my advisor is Ivan Grgić, University of Slavonski Brod, Mechanical Engineering Faculty in Slavonski Brod.
   
 ## 🏆 Competitions
-<!-- add vfs executive summay here -->
-- [42nd Annual Student Design Compitetion of Vertical Flight Society](https://github.com/not-your-pancake/BUP-ML-Portfolio/blob/main/12-vertical-flight-society/Executive%20Summary%20Of%20The%20Team%20Hawk.pdf) <br>
-This was one of my side project. I was the team leader and did collaboration with Aeronotocal Engineering students. 
-- worked with PEMFC ( Proton Exchange Membrane Fuel Cell) of Toyota Mirai
-- came up with the concept of hybridization of Cabri and R22
-- My main role was in the research, writing section
+
+- **[42nd Annual Student Design Competition of Vertical Flight Society](https://github.com/not-your-pancake/BUP-ML-Portfolio/blob/main/12-vertical-flight-society/Executive%20Summary%20Of%20The%20Team%20Hawk.pdf)**
+  - Served as **Team Leader**, collaborating with Aeronautical Engineering students.
+  - Research focused on **PEMFC** (Proton Exchange Membrane Fuel Cell) systems from the Toyota Mirai.
+  - Developed a hybridization concept for the **Cabri G2** and **Robinson R22** helicopters.
+  - Led the primary research and technical writing phases.
+
 <br>
-<img src="./12-vertical-flight-society/certificate-the_hawk.pdf" width="300" alt="VFS certificate" />
-<br>
+
+<a href="https://github.com/not-your-pancake/BUP-ML-Portfolio/blob/main/12-vertical-flight-society/certificate-the_hawk.pdf" target="_blank">
+  <img src="https://raw.githubusercontent.com/not-your-pancake/BUP-ML-Portfolio/main/12-vertical-flight-society/certificate_thumbnail.png" width="200" alt="Click to view VFS Certificate" style="border: 1px solid #ddd; border-radius: 4px;">
+</a>
+
+*Click the image above to view the full certificate.*
 
 [[Kaggle House Prices](https://img.shields.io/badge/HousePrices-95.7%25-2A85FF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
 <br>
