@@ -16,7 +16,10 @@ CGPA: 3.38 → target 3.60+
 - arXiv-2: https://arxiv.org/abs/yyyy.yyyy (Air-Quality)
 - Live AQI App: https://YOURNAME.github.io/BUP-ML-Portfolio/aqi-app  
   -->
-
+# Publications
+- Physics-Guided Machine Learning Surrogates for Bird Strike Analysis on Rotating Jet Engine Blades Through a Comparative Study of Lagrangian and SPH Simulations
+  I am the first author and my advisor is Ivan Grgić, University of Slavonski Brod, Mechanical Engineering Faculty in Slavonski Brod.
+  
 ## 🏆 Competitions
 <!-- add vfs executive summay here -->
 - [42nd Annual Student Design Compitetion of Vertical Flight Society](https://github.com/not-your-pancake/BUP-ML-Portfolio/blob/main/12-vertical-flight-society/Executive%20Summary%20Of%20The%20Team%20Hawk.pdf) <br>
@@ -25,9 +28,9 @@ This was one of my side project. I was the team leader and did collaboration wit
 - came up with the concept of hybridization of Cabri and R22
 - My main role was in the research, writing section
 <br>
-<img src="./12-vertical-flight-society/certificate-the_hawk.pdf" width="700" alt="VFS certificate" />
-
+<img src="./12-vertical-flight-society/certificate-the_hawk.pdf" width="300" alt="VFS certificate" />
 <br>
+
 [[Kaggle House Prices](https://img.shields.io/badge/HousePrices-95.7%25-2A85FF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard)
 <br>
 <img src="https://github.com/user-attachments/assets/987857f1-a3b5-43b1-ac19-0750f9360614" width="700" alt="Kaggle House Prices Leaderboard Screenshot" />
