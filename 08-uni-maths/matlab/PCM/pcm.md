@@ -6,20 +6,15 @@
   Part 1: The Setup (Cleaning the Desk)
 Before you start any project, you clear your desk. That’s what these three lines do:
   
-`clc;        % Clears the command window (the text area)
-clear all;  % Deletes all saved numbers/variables
-close all;  % Closes any open picture windows (graphs)`
+<img width="625" height="123" alt="image" src="https://github.com/user-attachments/assets/a5906a02-4787-4324-889e-7ecf72897c91" />
+
 </p>
 
 <p>
   Part 2: The Inputs (Setting the Rules)
 Now, the computer asks you for two things:
   
-  `n = input('Enter the value of n for quantization: '); 
-% This is how many "Lego" blocks we have. Usually a small number like 3 or 4.
-
-samples = input('enter the value of sample: ' ); 
-% This is how many "photos" we take of the wave.`
+<img width="800" height="217" alt="image" src="https://github.com/user-attachments/assets/0fdb40c5-4290-4261-ad84-995ab666cd6b" />
 
 </p>
 
@@ -27,19 +22,14 @@ samples = input('enter the value of sample: ' );
   Part 3: Creating the Wave (The Song)
 We need a sound to turn into code. We use a Sine Wave (it looks like a smooth roller coaster).
   
-  `Vm = 8;                             % The "volume." The wave goes up to 8 and down to -8.
-x = 0 : 2*pi/samples : 4*pi;        % This creates the "Timeline."
-msg = Vm*sin(x);                    % This is the actual smooth wave (the "Message").`
-  
+<img width="695" height="150" alt="image" src="https://github.com/user-attachments/assets/8b260c66-67b4-46c8-9299-20b34ee4e23e" />
+
 </p>
 
 <p>
-  `subplot(3,1,1);     % Creates a grid of 3 rows. This is the top one.
-plot(msg);          % Draws a smooth line (The "Analog" wave).
-title('sine curve');
+Part 4: Drawing the Pictures
+Now the code draws the first two pictures so you can see what happened.
+<img width="749" height="256" alt="image" src="https://github.com/user-attachments/assets/92705785-3031-457f-828c-da5921231b66" />
 
-subplot(3,1,2);     % This is the middle row.
-stem(msg);          % Draws dots on sticks! (The "Sampled" wave).
-title('sine discrete curve');`
 </p>
 
