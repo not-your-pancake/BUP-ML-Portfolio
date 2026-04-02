@@ -16,3 +16,14 @@ subplot(312)
 stem(n_h,h)% impulse response 1 1 1
 subplot(313)
 stem(n_y,y)% convoluted 
+
+% exam, x= {1 2 3 4 5 6} nx = [-3:2]
+% h = {2 3 6 4 5 7} nh = [-x:3]
+
+nx = [-3:2]
+nh = [-x:3]
+kmin = x(1)+h(1)
+kmax = x(end)+h(end)
+ny = kmin:kmax
+
+% report of convolution 
