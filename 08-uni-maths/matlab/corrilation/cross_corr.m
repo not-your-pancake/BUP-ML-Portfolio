@@ -2,14 +2,18 @@ close all;
 clc;
 
 x = [1,2];
-%y = [1 1];
-y = rand(1,2); % noise jodi bole
+y = [1 1];
+
+noise = 0.2*rand(size(y));
+
+noisy_y = y + noise;
+
 % cross corrilation r_xy
-cross_corr = xcorr(x,y);
+cross_corr = xcorr(x,noisy_y);
 
 n_x = 0:length(x)-1;
-n_y = 0:length(y)-1;
-n_cross_corr = -(length(y)-1):length(x)-1;
+n_y = 0:length(noisy_y)-1;
+n_cross_corr = 0:length(cross_corr)-1;
 
 figure;
 subplot(311)
