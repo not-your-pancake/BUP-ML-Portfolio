@@ -7,3 +7,16 @@
 - input noise in y
 - y = rand(i,j)
 - <img width="490" height="401" alt="image" src="https://github.com/user-attachments/assets/6c39412a-1269-485c-91b8-7aef5be7ee1c" />
+
+- add noise to y
+- so y + noise
+```
+x = [1, 2, 4, 3, 1]; % Your original signal
+
+% Create noise the same size as x
+% randn generates random numbers with a "Normal" distribution
+noise = 0.2 * randn(size(x)); 
+
+% Add them together
+x_noisy = x + noise;
+```
