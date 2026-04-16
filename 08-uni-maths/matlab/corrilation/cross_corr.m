@@ -2,7 +2,8 @@ close all;
 clc;
 
 x = [1,2];
-y = [1,1];
+%y = [1 1];
+y = rand(1,2); % noise jodi bole
 % cross corrilation r_xy
 cross_corr = xcorr(x,y);
 
@@ -22,4 +23,4 @@ title('input of y')
 subplot(313)
 stem(n_cross_corr,cross_corr)
 title ('cross corrilation plot')
-ylim ([0 3])
+
